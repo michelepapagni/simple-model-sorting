@@ -20,6 +20,8 @@ class BaseModel extends Model
 class Model extends BaseModel
 {
     protected $sortableColumns = ['name', 'email'];
+    ...
+}
 ```
 
 ## Use the new scope in your sortable queries
