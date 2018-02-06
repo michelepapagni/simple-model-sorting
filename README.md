@@ -23,8 +23,9 @@ return Model::sortable()->paginate(10);
 ## Frontend 
 Append these get params in a route with sortable scope:
 
-```
-s (sortable) = Here populate with the name of the column (required)
+s (sortable) = Here populate with the name of the column (required) <br>
 d (direction) = Here populate with the direction of the order (optional, default 'desc')
+
+```
 ?s=name&d=asc
 ```
