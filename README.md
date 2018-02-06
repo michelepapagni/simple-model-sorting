@@ -15,6 +15,13 @@ class BaseModel extends Model
 }
 ```
 
+## Add in your model class the columns sortable
+```
+class Model extends BaseModel
+{
+    protected $sortableColumns = ['name', 'email'];
+```
+
 ## Use the new scope in your sortable queries
 ```
 return Model::sortable()->paginate(10);
